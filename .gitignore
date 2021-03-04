@@ -1,0 +1,9 @@
+#####################################################
+# PROJECT: user_creds
+# ref: https://git-scm.com/docs/gitignore
+#####################################################
+
+.env
+apps/__pycache__/
+management/__pycache__/
+db.sqlite3
