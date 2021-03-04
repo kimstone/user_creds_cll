@@ -42,6 +42,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'valid_entry',
+    'apps.core',
 ]
 
 MIDDLEWARE = [
@@ -127,3 +129,5 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     BASE_DIR / "static",
 ]
+
+AUTH_USER_MODEL = 'valid_entry.User'
